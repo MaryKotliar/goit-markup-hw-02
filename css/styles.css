@@ -3,10 +3,9 @@
     --second-title-color:#FFFFFF;
     --paragraph-color:#757575;
     --accent-colour:#2196F3;
-    --main-background-color:#E5E5E5;
     --second-background-color:#2F303A;
     --third-background-color:#F5F4FA; /*наша команда*/
-    --fourth-background-color:#FFFFFF;
+    --main-background-color:#FFFFFF;
     
 
 }
@@ -71,12 +70,12 @@ body {
 }
 
 .hero-title {
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-transform: uppercase;
-color:var(--second-title-color);
-text-align: center;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color:var(--second-title-color);
+    text-align: center;
 }
 .hero-btn {
     font-family: inherit;
@@ -102,8 +101,8 @@ text-align: center;
 }
 
 .advantages-title {
-    font-weight: 700;
     font-size: 14px;
+    font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -111,7 +110,6 @@ text-align: center;
 }
 
 .advantages-text {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -123,6 +121,7 @@ text-align: center;
     background-color: var(--main-background-color);
 }
 .about-title {
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.67;
@@ -157,8 +156,6 @@ text-align: center;
 }
 
 .team-item-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
@@ -182,7 +179,6 @@ text-align: center;
 
 .footer-address {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -190,9 +186,6 @@ text-align: center;
 }
 
 .mail-link, .tel-link {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -226,8 +219,6 @@ text-align: center;
 }
 
 .potrfolio-text {
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--paragraph-color)
